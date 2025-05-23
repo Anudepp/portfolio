@@ -79,16 +79,7 @@ const Hero = () => {
                 Contact Me
               </motion.button>
             </Link>
-            <motion.a
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              href="/resume.pdf"
-              className="px-8 py-3 border border-gray-300 dark:border-gray-700 rounded-lg shadow-sm font-medium flex items-center justify-center"
-              download
-            >
-              <FileText className="h-5 w-5 mr-2" />
-              Resume
-            </motion.a>
+
           </motion.div>
         </div>
 
