@@ -55,21 +55,24 @@ const Navbar = () => {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-8">
+        <nav className="hidden md:flex items-center space-x-16">
           {navItems.map((item) => (
-            <Link
-              key={item.name}
-              to={item.to}
-              spy={true}
-              smooth={true}
-              offset={item.offset}
-              duration={500}
-              activeClass="text-primary-600 dark:text-primary-400 font-medium"
-              className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors relative py-2 cursor-pointer"
-            >
-              {item.name}
-            </Link>
-          ))}
+  <Link
+    key={item.name}
+    to={item.to}
+    spy={true}
+    smooth={true}
+    offset={item.offset}
+    duration={500}
+    activeClass="text-primary-600 dark:text-primary-400 font-medium"
+    className="relative py-2 cursor-pointer transition-all group"
+  >
+    <span className="group-hover:bg-gradient-to-r from-primary-600 to-secondary-500 group-hover:text-transparent group-hover:bg-clip-text">
+      {item.name}
+    </span>
+    <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-gradient-to-r from-primary-600 to-secondary-500 transition-all group-hover:w-full"></span>
+  </Link>
+))}
           
           <div className="flex items-center space-x-4">
             <a 
