@@ -7,9 +7,9 @@ const projects = [
   {
     id: 'coffee-beans',
     title: 'CCA - Coffee Beans Export Website',
-    description: 'An e-commerce platform for premium coffee beans export with catalog, ordering system, and blog.',
-    fullDescription: 'Cabinet of Coffee Affairs (CCA) is a comprehensive e-commerce platform designed for the export of premium coffee beans. The site features a detailed product catalog with information about bean varieties, origins, and flavor profiles. It includes a seamless ordering system, blog with coffee-related content, and integrates with payment processors for international transactions. The responsive design ensures a great user experience across all devices.',
-    image: 'https://images.pexels.com/photos/585750/pexels-photo-585750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    description: 'An e-commerce platform for premium coffee beans export with catalog, Contact information, and blog.',
+    fullDescription: 'Cabinet of Coffee Affairs (CCA) is a comprehensive e-commerce platform designed for the export of premium coffee beans. The site features a detailed product catalog with information about bean varieties, origins, and flavor profiles. The responsive design ensures a great user experience across all devices.',
+    image: '/public/CCA.png',
     url: 'https://cabinet-of-coffee-affairs.vercel.app',
     technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Stripe', 'Vercel']
   },

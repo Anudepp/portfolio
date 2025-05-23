@@ -10,7 +10,7 @@ const educationData = [
     icon: <GraduationCap className="h-12 w-12 text-primary-500" />
   },
   {
-    degree: 'Bachelor of Technology',
+    degree: 'B.Tech in Electrical and Electronics Engineering ',
     institution: 'JNTUH',
     period: '2009 - 2013',
     icon: <GraduationCap className="h-12 w-12 text-secondary-500" />
