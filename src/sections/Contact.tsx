@@ -7,19 +7,13 @@ const Contact = () => {
     {
       icon: <Mail className="h-6 w-6 text-primary-500" />,
       title: 'Email',
-      value: 'anudeep@example.com',
-      link: 'mailto:anudeep@example.com'
-    },
-    {
-      icon: <Phone className="h-6 w-6 text-secondary-500" />,
-      title: 'Phone',
-      value: '+1 (123) 456-7890',
-      link: 'tel:+11234567890'
+      value: 'andebbata1@gmail.com',
+      link: 'mailto:andebbata1@gmail.com'
     },
     {
       icon: <MapPin className="h-6 w-6 text-accent-500" />,
       title: 'Location',
-      value: 'Bentonville, Arkansas, USA',
+      value: 'Hyderabad, Telangana, India',
       link: null
     }
   ];
